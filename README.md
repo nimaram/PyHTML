@@ -58,3 +58,46 @@ result html code:
 	<!--fork me please!-->
 ```
 ## Explain Of Code
+To create a head tag and create a style for your html file, you need to use head and style decorators.
+just like this(You can write your style in return):
+```python
+@headTag
+@styleTag
+def head():
+	return '''div{color:red}'''
+```
+Other tags:
+(h1tag and ...) to create h tag in your file. 
+```python
+@h1Tag , @h2Tag , @h3Tag, @h4Tag, @h5Tag
+```
+(divtag) to create div tag in your file. 
+```python
+@divTag 
+```
+(freetag) to create your custom code in html file. 
+```python
+@freeTag
+def comment():
+	return '''
+	<!--check my github for new fuetres!-->
+	<!--fork me please!-->'''
+```
+what is html_array?You need to put your defs in html_array to set up your html screen.
+just like this:
+```python
+html_array += [
+	head(),
+	header(),
+	aside(),
+	footer(),
+	end(),
+	comment(),
+]
+```
+what is ```buildHTML()``` and  ```runHTML()``` ?
+with  ```buildHTML()``` you can generate your html file  and your htmlfilename is : Pyhtml.html
+with  ```runHTML()``` you can save html codes in variable.
+tip: ```buildHTML()``` it must be in the last line.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
