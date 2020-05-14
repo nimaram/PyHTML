@@ -1,4 +1,7 @@
 # PyHTML
+===
+.. image:: https://travis-ci.org/cenkalti/pyhtml.svg?branch=master
+===
 A module that you can use to create HTML pages with Python code🐍
 ## How to use?
 First, create the file you want to write next to the utils folder.  forexample generate.py
