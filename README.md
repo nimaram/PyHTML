@@ -1,7 +1,8 @@
 # PyHTML
-===
-.. image:: https://travis-ci.org/cenkalti/pyhtml.svg?branch=master
-===
+
+![psas](https://travis-ci.org/cenkalti/pyhtml.svg?branch=master)
+![cover](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_100.svg)
+
 A module that you can use to create HTML pages with Python code🐍
 ## How to use?
 First, create the file you want to write next to the utils folder.  forexample generate.py
