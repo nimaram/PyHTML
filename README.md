@@ -46,7 +46,7 @@ print(mycode)
 buildHTML()
 ```
 then , open generator.py or yourfilename.py
-in your directory Pyhtml file is created, open it!
+in your directory and Pyhtml.html file is created, open it!
 result:
 ![result](http://s5.picofile.com/file/8397114292/Pyhtml_html_Google_Chrome_25_02_1399_04_44_43_%D8%A8_%D8%B8.png)
 result html code:
